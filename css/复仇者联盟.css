@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav {
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    z-index: 1;
+
+}
+
+
+body {
+
+    background-color: black;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #EAA35F;
+
+}
+
+.list {
+    width: 100%;
+    height: 130px;
+    background-color: rgb(5, 7, 8, .4);
+    list-style: none;
+    font-size: 23px;
+    font-weight: bold;
+
+
+}
+
+li {
+    width: 120px;
+    height: 30px;
+    float: left;
+
+}
+
+
+
+
+
+
+li:nth-of-type(1),
+li:nth-of-type(2) {
+    float: right;
+    line-height: 130px;
+    padding-right: 30px;
+}
+
+
+
+li:hover>a {
+    color: red;
+}
+
+.line {
+    position: relative;
+    top: 52px;
+    right: -269px;
+}
+
+.logo {
+    width: 100%;
+    height: 852px;
+    background: url(../img/000000.jpg) no-repeat 0px 0px;
+    background-size: 1920px;
+    background-size: cover;
+    position: relative;
+}
+
+.img2 {
+    width: 1000px;
+    position: absolute;
+    top: 297px;
+    right: 264px;
+
+
+}
+
+.img3 {
+    position: absolute;
+    top: 261px;
+    right: 1px;
+
+}
+
+.list2 {
+    width: 163px;
+    height: 300px;
+    list-style: none;
+    position: relative;
+    top: -80px;
+    right: -1017px;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.jiesao {
+    margin-bottom: 20px;
+}
+
+.name>p {
+    width: 163px;
+    margin: 15px 0;
+
+}
+
+.name {
+    opacity: 0;
+    height: 0;
+    transition: all 2s linear;
+}
+
+.list2:hover>.name {
+    opacity: 1;
+    height: 100%;
+
+}
+
+.list2 a {
+    color: #EAA35F;
+}
+
+.list2 a:hover {
+    color: skyblue;
+}
+
+
+/* 美国队长 */
+.content {
+    width: 100%;
+    height: 852px;
+    background: url(../img/duizzhang2.png) no-repeat;
+    background-size: 1920px;
+    background-size: cover;
+
+}
+
+.box1 {
+    width: 450px;
+    height: 450px;
+
+    position: relative;
+    top: 259px;
+    right: -193px;
+    color: white;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+
+    text-indent: 2em;
+}
+
+.box2 {
+    width: 450px;
+    height: 545px;
+
+    position: relative;
+    top: -278px;
+    right: -950px;
+
+}
+
+
+
+
+
+/* 钢铁侠 */
+.iron_man {
+    width: 100%;
+    height: 852px;
+    background: url(../img/tie3.png) no-repeat;
+    background-size: 1920px;
+    background-size: cover;
+
+}
+
+.box3 {
+    width: 450px;
+    height: 450px;
+
+    position: relative;
+    top: 259px;
+    right: -193px;
+    color: white;
+    font-size: 20px;
+}
+
+.box4 {
+    width: 450px;
+    height: 545px;
+
+    position: relative;
+    top: -278px;
+    right: -950px;
+
+}
+
+/* 雷神 */
+.the_thor {
+    width: 100%;
+    height: 852px;
+    background: url(../img/lei5.png) no-repeat;
+    background-size: 1920px;
+    background-size: cover;
+}
+
+.box5 {
+    width: 450px;
+    height: 450px;
+
+    position: relative;
+    top: 205px;
+    right: -193px;
+    color: white;
+    font-size: 20px;
+}
+
+.box6 {
+    width: 600px;
+    height: 600px;
+
+    position: relative;
+    top: -317px;
+    right: -950px;
+
+}
+
+
+
+/* 绿巨人 */
+.hulk {
+    width: 100%;
+    height: 852px;
+    background: url(../img/lv.png) no-repeat;
+    background-size: 1920px;
+    background-size: cover;
+}
+
+
+.box7 {
+    width: 450px;
+    height: 450px;
+
+    position: relative;
+    top: 205px;
+    right: -193px;
+    color: white;
+    font-size: 20px;
+}
+
+.box8 {
+    width: 450px;
+    height: 545px;
+
+    position: relative;
+    top: -278px;
+    right: -950px;
+
+}
+
+/* 黑寡妇 */
+.black_widow {
+    width: 100%;
+    height: 852px;
+    background: url(../img/hei1.png) no-repeat;
+    background-size: 1920px;
+    background-size: cover;
+}
+
+.box9 {
+    width: 450px;
+    height: 450px;
+
+    position: relative;
+    top: 205px;
+    right: -193px;
+    color: white;
+    font-size: 20px;
+}
+
+.box10 {
+    width: 450px;
+    height: 545px;
+
+    position: relative;
+    top: -278px;
+    right: -950px;
+
+}
+
+
+/* 鹰眼 */
+.eagle_eye {
+    width: 100%;
+    height: 852px;
+    background: url(../img/yy4.png) no-repeat;
+    background-size: 1920px;
+    background-size: cover;
+}
+
+.box11 {
+    width: 450px;
+    height: 450px;
+
+    position: relative;
+    top: 205px;
+    right: -193px;
+    color: white;
+    font-size: 20px;
+}
+
+.box12 {
+    width: 450px;
+    height: 545px;
+
+    position: relative;
+    top: -278px;
+    right: -950px;
+
+}

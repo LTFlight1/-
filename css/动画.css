@@ -1,0 +1,634 @@
+.logo {
+    animation: bgc1 20s linear infinite alternate forwards;
+}
+
+
+@keyframes bgc1 {
+    0% {
+        transform: scale(1);
+    }
+
+    15% {
+        transform: scale(1);
+
+    }
+
+
+    30% {
+        transform: scale(1);
+        background: url(../img/69.jpg) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+    }
+
+
+    50% {
+        transform: scale(1);
+        background: url(../img/75.jpg) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+    }
+
+    100% {
+        transform: scale(1);
+        background: url(../img/71.jpg) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+    }
+
+
+}
+
+.img2 {
+    animation: img2 linear 3s forwards;
+}
+
+@keyframes img2 {
+
+
+    0% {
+        transform: scale(0.1) rotate(180deg);
+        opacity: 0;
+    }
+
+    20% {
+        transform: scale(0.3) rotate(150deg);
+    }
+
+    30% {
+        transform: scale(0.5) rotate(120deg);
+    }
+
+    40% {
+        transform: scale(0.7) rotate(90deg);
+    }
+
+    50% {
+        transform: scale(0.8) rotate(60deg);
+    }
+
+    60% {
+        transform: scale(0.9) rotate(30deg);
+    }
+
+    70% {
+        transform: scale(1) rotate(0deg);
+
+
+    }
+
+}
+
+.img3 {
+    animation: img3 2s linear forwards;
+}
+
+@keyframes img3 {
+    0% {
+        right: 50px;
+        transform: translateY(50px) rotate(1deg);
+        opacity: 0;
+    }
+
+    25% {
+        right: 100px;
+        transform: translateY(100px) rotate(80deg);
+    }
+
+    50% {
+        right: 200px;
+        transform: translateY(150px) rotate(180deg);
+    }
+
+    100% {
+        right: 350px;
+        transform: translateY(200px) rotate(360deg);
+    }
+
+
+}
+
+
+/* 美国队长  */
+
+.content {
+    animation: bg2 20s linear infinite alternate forwards;
+}
+
+@keyframes bg2 {
+    0% {
+        transform: scale(1);
+    }
+
+
+    10% {
+        transform: scale(1);
+
+    }
+
+    15% {
+        transform: scale(1);
+    }
+
+    55% {
+        transform: scale(1);
+        background: url(../img/duizhang7.png) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+
+    }
+
+
+    100% {
+        transform: scale(1);
+        background: url(../img/duizhang6.png) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+    }
+
+
+
+}
+
+.box1 {
+    animation: box1 13s linear forwards;
+}
+
+@keyframes box1 {
+    0% {
+        transform: scaleX(1);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.box2 {
+    animation: box2 8s linear alternate forwards;
+}
+
+@keyframes box2 {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+        background: url(../img/duizhang5.png) no-repeat;
+        background-size: 500px;
+        background-size: contain;
+    }
+
+    50% {
+        transform: scale(0.5);
+        opacity: 0.5;
+        background: url(../img/duizhang5.png) no-repeat;
+        background-size: 500px;
+        background-size: contain;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        background: url(../img/duizhang5.png) no-repeat;
+        background-size: 500px;
+        background-size: contain;
+    }
+}
+
+/* 钢铁侠 */
+
+.iron_man {
+    animation: bg3 20s linear infinite alternate forwards;
+}
+
+@keyframes bg3 {
+    0% {
+        transform: scale(1);
+    }
+
+
+    10% {
+        transform: scale(1);
+
+    }
+
+    15% {
+        transform: scale(1);
+    }
+
+    55% {
+        transform: scale(1);
+        background: url(../img/tei2.png) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+
+    }
+
+
+    100% {
+        transform: scale(1);
+        background: url(../img/tei3.png) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+    }
+
+
+
+}
+
+.box3 {
+    animation: box3 13s linear forwards;
+}
+
+@keyframes box3 {
+    0% {
+        transform: scaleX(1);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.box4 {
+    animation: box4 8s linear alternate forwards;
+}
+
+@keyframes box4 {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+        background: url(../img/tei.png) no-repeat;
+        background-size: 500px;
+        background-size: contain;
+    }
+
+    50% {
+        transform: scale(0.5);
+        opacity: 0.5;
+        background: url(../img/tei.png) no-repeat;
+        background-size: 500px;
+        background-size: contain;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        background: url(../img/tei.png) no-repeat;
+        background-size: 500px;
+        background-size: contain;
+    }
+}
+
+
+/* 雷神 */
+
+.the_thor {
+    animation: bg4 20s linear infinite alternate forwards;
+}
+
+@keyframes bg4 {
+    0% {
+        transform: scale(1);
+    }
+
+
+    10% {
+        transform: scale(1);
+
+    }
+
+    15% {
+        transform: scale(1);
+    }
+
+    55% {
+        transform: scale(1);
+        background: url(../img/lei1.png) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+
+    }
+
+
+    100% {
+        transform: scale(1);
+        background: url(../img/lei3.png) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+    }
+
+
+
+}
+
+.box5 {
+    animation: box5 13s linear forwards;
+}
+
+@keyframes box5 {
+    0% {
+        transform: scaleX(1);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.box6 {
+    animation: box6 8s linear alternate forwards;
+}
+
+@keyframes box6 {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+        background: url(../img/leishen.png) no-repeat;
+        background-size: 600px;
+        background-size: contain;
+    }
+
+    50% {
+        transform: scale(0.5);
+        opacity: 0.5;
+        background: url(../img/leishen.png) no-repeat;
+        background-size: 600px;
+        background-size: contain;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        background: url(../img/leishen.png) no-repeat;
+        background-size: 600px;
+        background-size: contain;
+    }
+}
+
+/* 绿巨人 */
+
+.hulk {
+    animation: bg5 20s linear infinite alternate forwards;
+}
+
+@keyframes bg5 {
+    0% {
+        transform: scale(1);
+    }
+
+
+    10% {
+        transform: scale(1);
+
+    }
+
+    15% {
+        transform: scale(1);
+    }
+
+    55% {
+        transform: scale(1);
+        background: url(../img/lv2.png) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+
+    }
+
+
+    100% {
+        transform: scale(1);
+        background: url(../img/lv3.png) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+    }
+
+
+
+}
+
+.box7 {
+    animation: box7 13s linear forwards;
+}
+
+@keyframes box7 {
+    0% {
+        transform: scaleX(1);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.box8 {
+    animation: box8 8s linear alternate forwards;
+}
+
+@keyframes box8 {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+        background: url(../img/lvjvr.png) no-repeat;
+        background-size: 600px;
+        background-size: contain;
+    }
+
+    50% {
+        transform: scale(0.5);
+        opacity: 0.5;
+        background: url(../img/lvjvr.png) no-repeat;
+        background-size: 600px;
+        background-size: contain;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        background: url(../img/lvjvr.png) no-repeat;
+        background-size: 600px;
+        background-size: contain;
+    }
+}
+
+/* 黑寡妇 */
+
+.black_widow {
+    animation: bg6 20s linear infinite alternate forwards;
+}
+
+@keyframes bg6 {
+    0% {
+        transform: scale(1);
+    }
+
+
+    10% {
+        transform: scale(1);
+
+    }
+
+    15% {
+        transform: scale(1);
+    }
+
+    55% {
+        transform: scale(1);
+        background: url(../img/hei5.png) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+
+    }
+
+
+    100% {
+        transform: scale(1);
+        background: url(../img/hei6.png) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+    }
+
+
+
+}
+
+.box9 {
+    animation: box9 13s linear forwards;
+}
+
+@keyframes box9 {
+    0% {
+        transform: scaleX(1);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.box10 {
+    animation: box10 8s linear alternate forwards;
+}
+
+@keyframes box10 {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+        background: url(../img/heiguafu.png) no-repeat;
+        background-size: 600px;
+        background-size: contain;
+    }
+
+    50% {
+        transform: scale(0.5);
+        opacity: 0.5;
+        background: url(../img/heiguafu.png) no-repeat;
+        background-size: 600px;
+        background-size: contain;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        background: url(../img/heiguafu.png) no-repeat;
+        background-size: 600px;
+        background-size: contain;
+    }
+}
+
+
+/* 鹰眼 */
+
+.eagle_eye {
+    animation: bg7 20s linear infinite alternate forwards;
+}
+
+@keyframes bg7 {
+    0% {
+        transform: scale(1);
+    }
+
+
+    10% {
+        transform: scale(1);
+
+    }
+
+    15% {
+        transform: scale(1);
+    }
+
+    55% {
+        transform: scale(1);
+        background: url(../img/yy7.png) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+
+    }
+
+
+    100% {
+        transform: scale(1);
+        background: url(../img/yy2.png) no-repeat;
+        background-size: 1920px;
+        background-size: cover;
+    }
+
+
+
+}
+
+.box11 {
+    animation: box11 13s linear forwards;
+}
+
+@keyframes box11 {
+    0% {
+        transform: scaleX(1);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.box12 {
+    animation: box12 8s linear alternate forwards;
+}
+
+@keyframes box12 {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+        background: url(../img/yy.png) no-repeat;
+        background-size: 600px;
+        background-size: contain;
+    }
+
+    50% {
+        transform: scale(0.5);
+        opacity: 0.5;
+        background: url(../img/yy.png) no-repeat;
+        background-size: 600px;
+        background-size: contain;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        background: url(../img/yy.png) no-repeat;
+        background-size: 600px;
+        background-size: contain;
+    }
+}
